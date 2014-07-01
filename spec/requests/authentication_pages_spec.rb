@@ -92,6 +92,8 @@ describe "AuthenticationPages" do
           specify { expect(response).to redirect_to(signin_path) }
         end
       end
+
+     
     end
 
    
